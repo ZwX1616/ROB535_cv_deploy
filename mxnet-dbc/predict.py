@@ -52,7 +52,7 @@ for X, _ in test_data:
     preds.extend(y_hat.argmax(axis=1).astype(int).asnumpy())
 
 # write result
-with open('./test_v3.lst') as cfile: # read to get filenames, ordered
+with open('../data/test_v3.lst') as cfile: # read to get filenames, ordered
     reader = csv.reader(cfile)
     readeritem=[]
     readeritem.extend([row for row in reader])
