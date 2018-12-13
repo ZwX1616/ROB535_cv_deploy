@@ -1,10 +1,12 @@
 # ROB535_cv_deploy
 _for in-class competition task1 &amp; task2_
+curated by wx. zhang
 
 Results:
 ![](https://github.com/ZwX1616/ROB535_cv_deploy/blob/master/acc.jpg)
 
 Environment requirements:
+
 0. Python 3.6
 1. packages: mxnet, gluonbook, gluoncv, pandas, ...
 2. preferably mxnet-cu92 to use CUDA accerleration (mxnet-cu90 is recommended if you use tf)
