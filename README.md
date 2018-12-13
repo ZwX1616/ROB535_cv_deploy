@@ -52,7 +52,7 @@ root
     ├── (txt files for kaggle upload)
 ├── README.md
 ```
-(Note:.rec file is the mxnet RecordIO format, refer to https://github.com/leocvml/mxnet-im2rec_tutorial on how to generate them)
+(Note: .rec file is the mxnet RecordIO format, refer to https://github.com/leocvml/mxnet-im2rec_tutorial on how to generate them)
 
 for task1:
 - train SSD: python mxnet-ssd/gta5_train.py
