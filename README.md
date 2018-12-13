@@ -2,7 +2,7 @@
 for in-class competition task1 &amp; task2
 
 results:
-![alt text](https://github.com/ZwX1616/ROB535_cv_deploy/blob/master/acc.PNG?raw=true | width=100)
+![](https://github.com/ZwX1616/ROB535_cv_deploy/blob/master/acc.PNG?raw=true | width=100)
 
 environment requirements:
 1. packages: mxnet, gluonbook, gluoncv, pandas, ...
