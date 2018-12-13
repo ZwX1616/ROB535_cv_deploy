@@ -10,7 +10,7 @@ Environment requirements:
 
 0. Python 3.6
 1. packages: mxnet, gluonbook, gluoncv, pandas, ...
-2. preferably mxnet-cu92 to use CUDA accerleration (mxnet-cu90 is recommended if you use tf)
+2. preferably mxnet-cu92 to use CUDA accerleration (mxnet-cu90 is recommended if you also use tf)
 3. if not using GPU, change all ctx to mx.cpu()
 
 Directory strcuture:
