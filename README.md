@@ -1,7 +1,9 @@
 # ROB535_cv_deploy
 _for in-class competition task1 &amp; task2_
 
-curated by wx. zhang
+_curated by wx. zhang_
+
+for more details refer to the pdf report
 
 Results:
 ![](https://github.com/ZwX1616/ROB535_cv_deploy/blob/master/acc.jpg)
