@@ -1,5 +1,5 @@
 # ROB535_cv_deploy
-for in-class competition task1 &amp; task2
+_for in-class competition task1 &amp; task2_
 
 Results:
 ![](https://github.com/ZwX1616/ROB535_cv_deploy/blob/master/acc.jpg)
@@ -11,6 +11,7 @@ Environment requirements:
 3. if not using GPU, change all ctx to mx.cpu()
 
 Directory strcuture:
+```
 root
 ├── data
 │   ├── trainval
@@ -40,12 +41,22 @@ root
     ├── ...
 ├── mxnet-mlp
     ├── ...
-├── mxnet-ssd
+├── mxnet-ssd (originally forked from https://github.com/zhreshold/mxnet-ssd)
     ├── ...
 ├── params
     ├── (network parameters for ssd and frcnn)
 ├── output
     ├── (txt files for kaggle upload)
 ├── README.md
+```
+(Note:.rec file is the mxnet RecordIO format, refer to https://github.com/leocvml/mxnet-im2rec_tutorial on how to generate them)
 
+for task1:
+- train SSD: python mxnet-ssd/gta5_train.py
+- predict with SSD: python mxnet-ssd/gta5_predict.py 42
+- train Inception3 classifier: python mxnet-dbc/train.py
+- predict with Inception3 classifier: python mxnet-dbc/predict.py
 
+for task2:
+- train MLP: python mxnet-mlp/mlp_train.py
+- (after predicting with SSD) predict with MLP: python mxnet-mlp/predict.py
